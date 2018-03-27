@@ -1,15 +1,12 @@
-/*
-  You can use import statements to include partials:
- */
-@import "imports/reset.css";
+/* Configuration: */
+@import "base/variables.css";
 
+/* Reset: */
+@import "base/normalize.css";
+@import "base/reset.css";
 
-/*
-  Or add your statements here:
- */
-body{
-  font-family: sans-serif;
-  font-size: 1em;
-  text-align: center;
-  background-color: #fdfdfd;
-}
+/* Components: */
+@import "components/scaffolding.css";
+@import "components/grid.css";
+@import "components/navigation.css";
+@import "components/layout.css";
