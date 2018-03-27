@@ -1,0 +1,8 @@
+body {
+    background-color: var(--background);
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: var(--page-gutter);
+}
